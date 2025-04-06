@@ -1,0 +1,23 @@
+# Archivos y carpetas que genera Unity y no deben subirse
+
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+
+# Archivos grandes de Android/IL2CPP
+*.so
+*.dll
+*.aar
+*.dbg.so
+*.dylib
+
+# Cache de paquetes
+Library/Bee/
+Library/PackageCache/
+
+# Configs del sistema operativo
+.DS_Store
+Thumbs.db
